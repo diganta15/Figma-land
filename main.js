@@ -1,16 +1,5 @@
-/*css
-        <ul class="emp1 ">
-          <li class="link"><a href="#" class="link">Home</a></li>
-          <li class="link"><a href="#" class="link">Product</a></li>
-          <li class="link"><a href="#" class="link">About</a></li>
-          <li class="link"><a href="#" class="link">Contact</a></li>
-        </ul>
-*/
-
 const area = document.getElementById('empty');
 const menu = document.getElementById('menu'); 
-
-console.log(area);
 
 menu.addEventListener('click',showFlex);
 
@@ -22,7 +11,6 @@ function showFlex(){
     
     
 }
-
 
 area.innerHTML = `<img src="assets/images/outline_close_white_24dp.png" id="cross" />
         <ul class="emp1">
